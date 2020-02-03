@@ -472,10 +472,6 @@ section.contact-me {
     border-bottom: none;
 }
 
-::placeholder{
-  color: blue;
-}
-
 #contact input {
     background-color: rgba(250,250,250,0.1);
     border: 1px solid rgba(250,250,250,1);
@@ -492,6 +488,10 @@ section.contact-me {
 #contact input:focus {
     outline: none;
     box-shadow: none;
+}
+
+::placeholder{
+  color: blue;
 }
 
 #contact textarea {
